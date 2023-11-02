@@ -6,6 +6,8 @@ body {
     color: #E8E8E8;
     overflow-x: hidden; /* Hide horizontal scrollbar */
     zoom: 1;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Permanent Marker', cursive;   
 
 }
 
@@ -55,7 +57,7 @@ html, body {
     margin-top: 10px;
     position: relative;
     color: var(--text-white, #E8E8E8);
-    font-family: Alata;
+    font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -81,7 +83,8 @@ html, body {
 
 .ai-color-change{
     position: absolute;
-    color: D73F09;
+    margin-left: -85.3%;
+    color: #D73F09;
 
 }
 
