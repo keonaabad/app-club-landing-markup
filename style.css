@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0E0E0E;
+    font-family: "Arial", sans-serif;
+    color: #E8E8E8;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    zoom: 1;
+
+}
+
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+
+  a {
+    text-decoration: none;
+  }
+
+
+
+
+/* Start of Navigation */
+
+.nav-container{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+
+
+.title-name,
+.ai-color-change,
+.home-button,
+.features-button,
+.about-button,
+.resources-button,
+.login-button,
+.signup-button{
+    margin-top: 10px;
+    position: relative;
+    color: var(--text-white, #E8E8E8);
+    font-family: Alata;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative; 
+}
+
+
+.signup-button{
+    position: absolute;
+    margin-left: 90%;
+}
+
+.login-button{
+    position: absolute;
+    margin-left: 75%;
+}
+
+.title-name{
+    position: absolute;
+    margin-left: -90%
+}
+
+.ai-color-change{
+    position: absolute;
+    color: D73F09;
+
+}
+
+/* End of Navigation */
+
