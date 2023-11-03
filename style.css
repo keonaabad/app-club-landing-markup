@@ -52,11 +52,34 @@ html, body {
     color: #D73F09
   }
   
-.title-name,
+.title-name{
+    margin-top: 10px;
+    position: relative;
+    color: var(--text-white, #E8E8E8);
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative; 
+}
+
 .home-button,
 .features-button,
 .about-button,
-.resources-button,
+.resources-button{
+    margin-top: 10px;
+    position: relative;
+    color: var(--text-white, #D73F09);
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative; 
+}
+
+
 .login-button,
 .signup-button{
     margin-top: 10px;
