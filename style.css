@@ -53,6 +53,14 @@ html, body {
     margin-right: 50%;
 }
 
+.home-button:hover,
+.features-button:hover,
+.about-button:hover,
+.resources-button:hover{
+    background-color: #D73F09;
+    cursor: pointer;
+    color: #000000;
+}
 
 .title-name,
 .ai-color-change,
