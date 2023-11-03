@@ -102,6 +102,13 @@ html, body {
     justify-content: center;
 }
 
+.signup-button:hover{
+    background-color: #D73F09;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
 .login-button{
     position: absolute;
     margin-left: 75%;
