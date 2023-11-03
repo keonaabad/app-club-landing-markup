@@ -32,15 +32,9 @@ html, body {
     height: 100%;
   }
  
-
   a {
     text-decoration: none;
   }
-
-
-
-
-
 
 /* Start of Navigation */
 .nav-container{
@@ -56,15 +50,28 @@ html, body {
     color: #D73F09; /* Set the color for "AI" */
   }
   
-.home-button:hover,
-.features-button:hover,
-.about-button:hover,
-.resources-button:hover{
-    background-color: #D73F09;
-    cursor: pointer;
-    color: #000000;
+  .home-button:hover,
+  .features-button:hover,
+  .about-button:hover,
+  .resources-button:hover{
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 20%;
+  transform: scale(1.1);
+  }
+
+.intro-header .ai{
+    color: #D73F09; /* Set the color for "AI" */
+    
 }
 
+.intro-action-button:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+        
+}
+           
+  
 .title-name,
 .ai-color-change,
 .home-button,
@@ -99,7 +106,14 @@ html, body {
     position: absolute;
     margin-left: 75%;
 }
+.login-button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+    
+    }
 
+    
 .title-name{
     position: absolute;
     margin-left: -90%
