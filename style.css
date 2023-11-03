@@ -11,6 +11,11 @@ body {
     font-family: 'Inter', sans-serif;
     font-family: 'Libre Franklin', sans-serif;
     font-family: 'Permanent Marker', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Permanent Marker', cursive;
 
 }
 
@@ -26,11 +31,13 @@ html, body {
     padding: 0;
     height: 100%;
   }
-  
+ 
 
   a {
     text-decoration: none;
   }
+
+
 
 
 
@@ -47,50 +54,12 @@ html, body {
 }
 
 
-
-.title-name .ai {
-    color: #D73F09
-  }
-  
-.title-name{
-    margin-top: 10px;
-    position: relative;
-    color: var(--text-white, #E8E8E8);
-    font-family: Inter;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    position: relative; 
-}
-
-
-.home-button:hover,
-.features-button:hover,
-.about-button:hover,
-.resources-button:hover{
-    background-color: #D73F09;
-    cursor: pointer;
-    color: #000000;
-}
-
-
+.title-name,
+.ai-color-change,
 .home-button,
 .features-button,
 .about-button,
-.resources-button{
-    margin-top: 10px;
-    position: relative;
-    color: var(--text-white, #D73F09);
-    font-family: Inter;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    position: relative; 
-}
-
-
+.resources-button,
 .login-button,
 .signup-button{
     margin-top: 10px;
@@ -131,9 +100,6 @@ html, body {
     color: #D73F09;
 
 }
-
-
-
 /* End of Navigation */
 
 
@@ -183,3 +149,38 @@ html, body {
     top: -85%
 }
 /*End of Body 1*/
+
+
+
+
+
+
+/*Start of Body 2*/
+.body-2-wrapper{
+    position: relative;
+    top: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.body-2-header{
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight:700px;
+    color: #D73F09
+
+}
+
+.body-2-description{
+    font-family: Manrope;
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+
+/*End of Body 2*/
