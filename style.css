@@ -52,7 +52,10 @@ html, body {
     margin-left: 50%;
     margin-right: 50%;
 }
-
+.title-name .ai {
+    color: red; /* Set the color for "AI" */
+  }
+  
 .home-button:hover,
 .features-button:hover,
 .about-button:hover,
