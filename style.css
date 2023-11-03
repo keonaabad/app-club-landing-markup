@@ -35,8 +35,6 @@ html, body {
 
 
 
-
-
 /* Start of Navigation */
 .nav-container{
     display: flex;
@@ -49,8 +47,12 @@ html, body {
 }
 
 
+
+.title-name .ai {
+    color: #D73F09
+  }
+  
 .title-name,
-.ai-color-change,
 .home-button,
 .features-button,
 .about-button,
